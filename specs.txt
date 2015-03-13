@@ -25,14 +25,14 @@ SPECS - WHAT
 
     OUTPUT: 0.
 
-3. A user submits a word with two characters and a sentence with two characters and that word is found in the sentence.
+3. A user submits a word with two or more characters and a sentence with two or more characters and that word is found in the sentence.
 
     INPUT word: "So"
     INPUT sentence: "So"
 
     OUTPUT: 1
 
-4. A user submits a word with two characters and a sentence with two characters, but that word is not found in the sentence.
+4. A user submits a word with two or more characters and a sentence with two or more characters, but that word is not found in the sentence.
 
     INPUT word: "Be"
     INPUT sentence: "No"
