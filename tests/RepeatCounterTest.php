@@ -15,7 +15,8 @@
           $result = $test_repeat_counter_one_character->countRepeats($input_word, $input_phrase);
 
           //Assert
-          $this->assertEquals(1, $result);
+          $total_word_count = array(1);
+          $this->assertEquals($total_word_count, $result);
 
         }
 
