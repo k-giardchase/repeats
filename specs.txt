@@ -11,7 +11,12 @@ For example:
 
 SPECS - WHAT
 =======================
+1. A user submits a word with a single character and a sentence with a single character. Program outputs that word was found once in sentence.
 
+    INPUT word: 'A'
+    INPUT sentence: 'A'
+
+    OUTPUT: 1
 
 
 
