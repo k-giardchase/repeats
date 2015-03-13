@@ -36,6 +36,22 @@
 
         }
 
+        function testRepeatCounterTwoCharacter()
+        {
+          //Arrange
+          $test_repeat_counter_two_character = new RepeatCounter;
+          $input_word = 'so';
+          $input_phrase = 'so';
+
+          //Act
+          $result = $test_repeat_counter_two_character->countRepeats($input_word, $input_phrase);
+
+          //Assert
+          $total_word_count = array(1);
+          $this->assertEquals($total_word_count, $result);
+
+        }
+
     }
 
 ?>

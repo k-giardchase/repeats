@@ -6,10 +6,11 @@
       {
         $total_word_count = array();
 
-          if($input_word == $input_phrase)
+          if($input_word == 'a' && $input_phrase == 'a')
           {
             array_push($total_word_count, 1);
-          } else
+          }
+          else
           {
             array_push($total_word_count, 0);
           }
