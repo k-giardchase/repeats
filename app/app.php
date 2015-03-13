@@ -20,9 +20,8 @@
       $new_count = new RepeatCounter;
       $tallied_count = $new_count->countRepeats($_GET['input_word'], $_GET['input_phrase']);
       return $app['twig']->render('results.twig', array('total' => $tallied_count));
-
     });
 
-
     return $app;
+
 ?>

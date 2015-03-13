@@ -19,11 +19,7 @@
         }
 
         $final_total_count = array_sum($total_word_count);
-
         return $final_total_count;
-
       }
-
     }
-
 ?>
