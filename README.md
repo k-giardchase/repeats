@@ -1,6 +1,6 @@
 By Kyle Giard-Chase
 
-Web app that allows users to search for an input word from a input sentence. App calculates how many times that word is in that sentence and displays results.
+Web app that allows users to search for the number of times an input word appears in an user input sentence. App calculates how many times that word is in that sentence and displays results.
 
 Project uses composer to install Silex, Twig, and PHPUnit dependencies. To install composer, create composer.json file in top of project file and include:
 
