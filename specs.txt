@@ -1,0 +1,19 @@
+OVERVIEW
+=======================
+Goal: Create an application that will return how frequently a user submitted word appears in a user submitted sentence.
+
+For example:
+    INPUT word: "Cheese"
+    INPUT sentence: "I'm a Vermonter, so obviously I have strong feelings about cheese."
+
+    OUTPUT: Your word appeared 1 time in your sentence.
+
+
+SPECS - WHAT
+=======================
+
+
+
+
+SPECS - HOW
+=======================
