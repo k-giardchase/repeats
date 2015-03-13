@@ -64,6 +64,21 @@
 
         }
 
+        function testRepeatCounterMultipleWordMatch()
+        {
+          //Arrange
+          $test_repeat_counter_multiple_word_match = new RepeatCounter;
+          $input_word = 'at';
+          $input_phrase = 'when i was at the store at eight last night';
+
+          //Act
+          $result = $test_repeat_counter_multiple_word_match->countRepeats($input_word, $input_phrase);
+
+          //Assert
+          $this->assertEquals(2, $result);
+
+        }
+
     }
 
 ?>

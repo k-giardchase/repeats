@@ -17,12 +17,13 @@
           {
             array_push($total_word_count, 1);
           }
-          else
-          {
-            array_push($total_word_count, 0);
-          }
+          // else
+          // {
+          //   array_push($total_word_count, 0);
+          // }
 
         }
+
         $final_total_count = array_sum($total_word_count);
         return $final_total_count;
 
