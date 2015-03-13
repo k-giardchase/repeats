@@ -20,39 +20,44 @@ SPECS - WHAT
 
 2. A user submits a word with a single character and a sentence with a single character, but that word is not found in the sentence.
 
-    INPUT word: 'A'
-    INPUT sentence: 'T'
+    INPUT word: 't'
+    INPUT sentence: 't'
 
     OUTPUT: 0.
 
 3. A user submits a word with two or more characters and a sentence with two or more characters and that word is found in the sentence.
 
-    INPUT word: "So"
-    INPUT sentence: "So"
+    INPUT word: "so"
+    INPUT sentence: "so"
 
     OUTPUT: 1
 
 4. A user submits a word with two or more characters and a sentence with two or more characters, but that word is not found in the sentence.
 
-    INPUT word: "Be"
-    INPUT sentence: "No"
+    INPUT word: "be"
+    INPUT sentence: "no"
 
     OUTPUT: 0
 
 5. A user submits a multiple character word and a sentence with two or more words and that word is found in the sentence.
 
-    INPT word: "Okay"
-    INPUT word: "Be okay"
+    INPT word: "okay"
+    INPUT word: "be okay"
 
     OUTPUT: 1
 
 6. A user submits a multiple character word and a sentence with two or more words and that word is not found in the sentence.
 
-    INPUT word: "Burlington"
-    INPUT sentence: "Portland is a lot like Burlington"
+    INPUT word: "burlington"
+    INPUT sentence: "portland is a lot like burlington"
     OUTPUT: 1
 
-7. A user submits a word with CAPS on but a sentence with CAPS off. The program is still able to search and find their word.
+7. A user submits a multiple character word and a sentence with two or more words and the word is found multiple times in the sentence.
+
+    INPUT word: "at"
+    INPUT sentence: "when i was at the store at eight last night"
+
+8. A user submits a word with CAPS on but a sentence with CAPS off. The program is still able to search and find their word.
 
     INPUT word: CRAZY
     INPUT sentence: "Hopefully this assessment won't make me go crazy"
