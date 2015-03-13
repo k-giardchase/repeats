@@ -52,6 +52,13 @@ SPECS - WHAT
     INPUT sentence: "Portland is a lot like Burlington"
     OUTPUT: 1
 
+7. A user submits a word with CAPS on but a sentence with CAPS off. The program is still able to search and find their word.
+
+    INPUT word: CRAZY
+    INPUT sentence: "Hopefully this assessment won't make me go crazy"
+
+    OUTPUT: 1
+
 
 
 SPECS - HOW
