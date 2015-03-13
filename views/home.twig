@@ -1,25 +1,24 @@
 <html>
 <head>
-  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
-  <title>Repeat Counter</title>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+    <title>Repeat Counter</title>
 </head>
 <body>
-  <div class="container">
-    <h1>Count the number of times you used a word in a sentence!</h1>
-    <form action='/create_count' method='get'>
-      <div class="form-group">
-        <label for="input_word">Your word:</label>
-        <input id="input_word" name="input_word" type="text" class="form-control" required>
-      </div>
-      <div class="form-group">
-        <label for="input_phrase">Your sentence:</label>
-        <input id="input_phrase" name="input_phrase" type="text" class="form-control" required>
-      </div>
-      <div class="form-group">
-        <button type="submit" class="btn btn-warning">Count!</button>
-      </div>
-    </form>
-</div>
-
+    <div class="container">
+        <h1>Count the number of times you used a word in a sentence!</h1>
+        <form action='/create_count' method='get'>
+            <div class="form-group">
+                <label for="input_word">Your word:</label>
+                <input id="input_word" name="input_word" type="text" class="form-control" required>
+            </div>
+            <div class="form-group">
+                <label for="input_phrase">Your sentence:</label>
+                <input id="input_phrase" name="input_phrase" type="text" class="form-control" required>
+            </div>
+            <div class="form-group">
+                <button type="submit" class="btn btn-warning">Count!</button>
+            </div>
+        </form>
+    </div>
 </body>
 </html>
