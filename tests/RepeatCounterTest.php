@@ -15,8 +15,7 @@
           $result = $test_repeat_counter_one_character->countRepeats($input_word, $input_phrase);
 
           //Assert
-          $total_word_count = array(1);
-          $this->assertEquals($total_word_count, $result);
+          $this->assertEquals(1, $result);
 
         }
 
@@ -31,8 +30,7 @@
           $result = $test_repeat_counter_one_no_match->countRepeats($input_word, $input_phrase);
 
           //Assert
-          $total_word_count = array(0);
-          $this->assertEquals($total_word_count, $result);
+          $this->assertEquals(0, $result);
 
         }
 
@@ -47,8 +45,7 @@
           $result = $test_repeat_counter_two_character->countRepeats($input_word, $input_phrase);
 
           //Assert
-          $total_word_count = array(1);
-          $this->assertEquals($total_word_count, $result);
+          $this->assertEquals(1, $result);
 
         }
 
@@ -63,8 +60,7 @@
           $result = $test_repeat_counter_multiple_words->countRepeats($input_word, $input_phrase);
 
           //Assert
-          $total_word_count = array(1);
-          $this->assertEquals($total_word_count, $result);
+          $this->assertEquals(1, $result);
 
         }
 
