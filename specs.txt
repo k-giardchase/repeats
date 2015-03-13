@@ -39,6 +39,15 @@ SPECS - WHAT
 
     OUTPUT: 0
 
+5. A user submits a multiple character word and a sentence with two words and that word is found in the sentence.
+
+    INPT word: "Okay"
+    INPUT word: "Be okay"
+
+    OUTPUT: 1
+
+6.
+
 
 
 SPECS - HOW
