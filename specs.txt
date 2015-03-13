@@ -49,7 +49,8 @@ SPECS - WHAT
 6. A user submits a multiple character word and a sentence with two or more words and that word is not found in the sentence.
 
     INPUT word: "Burlington"
-    OUTPUT word: "Portland is a lot like Burlington"
+    INPUT sentence: "Portland is a lot like Burlington"
+    OUTPUT: 1
 
 
 
