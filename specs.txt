@@ -68,3 +68,10 @@ SPECS - WHAT
 
 SPECS - HOW
 =======================
+Beginnning ideas for outlining project:
+
+Take user input word as 1 string and take user input sentence as another string.
+
+Use explode function to break apart input sentence into separate words stored in an array.
+
+Use in_array function to search array of now seperate words against input word string.
