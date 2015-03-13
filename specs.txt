@@ -39,14 +39,17 @@ SPECS - WHAT
 
     OUTPUT: 0
 
-5. A user submits a multiple character word and a sentence with two words and that word is found in the sentence.
+5. A user submits a multiple character word and a sentence with two or more words and that word is found in the sentence.
 
     INPT word: "Okay"
     INPUT word: "Be okay"
 
     OUTPUT: 1
 
-6.
+6. A user submits a multiple character word and a sentence with two or more words and that word is not found in the sentence.
+
+    INPUT word: "Burlington"
+    OUTPUT word: "Portland is a lot like Burlington"
 
 
 
