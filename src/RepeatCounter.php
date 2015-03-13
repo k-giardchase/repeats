@@ -12,16 +12,14 @@
 
         $word_in_phrase = explode(" ", $input_phrase_lower);
 
-        foreach($word_in_phrase as $word)
-        {
-            if($input_word_lower == $word)
-            {
-              array_push($total_word_count, 1);
-
+        foreach($word_in_phrase as $word) {
+            if ($input_word_lower == $word) {
+                array_push($total_word_count, 1);
             }
         }
 
         $final_total_count = array_sum($total_word_count);
+
         return $final_total_count;
 
       }
