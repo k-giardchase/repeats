@@ -79,6 +79,21 @@
 
         }
 
+        function testRepeatCounterCaps()
+        {
+          //Arrange
+          $test_repeat_counter_caps = new RepeatCounter;
+          $input_word = 'CRAZY';
+          $input_phrase = 'Hopefully this assessment will not make me crazy';
+
+          //Act
+          $result = $test_repeat_counter_caps->countRepeats($input_word, $input_phrase);
+
+          //Assert
+          $this->assertEquals(1, $result);
+
+        }
+
     }
 
 ?>

@@ -4,7 +4,6 @@
     {
       function countRepeats($input_word, $input_phrase)
       {
-
         $total_word_count = array();
         $word_in_phrase = array();
 
@@ -12,13 +11,11 @@
 
         foreach($word_in_phrase as $word)
         {
+            if($input_word == $word)
+            {
+              array_push($total_word_count, 1);
 
-          if($input_word == $word)
-          {
-            array_push($total_word_count, 1);
-
-          }
-
+            }
         }
 
         $final_total_count = array_sum($total_word_count);
