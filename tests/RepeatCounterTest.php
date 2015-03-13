@@ -52,6 +52,22 @@
 
         }
 
+        function testRepeatCounterMultipleWords()
+        {
+          //Arrange
+          $test_repeat_counter_multiple_words = new RepeatCounter;
+          $input_word = 'okay';
+          $input_phrase = 'be okay';
+
+          //Act
+          $result = $test_repeat_counter_multiple_words->countRepeats($input_word, $input_phrase);
+
+          //Assert
+          $total_word_count = array(1);
+          $this->assertEquals($total_word_count, $result);
+
+        }
+
     }
 
 ?>

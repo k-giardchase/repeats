@@ -38,15 +38,6 @@ SPECS - WHAT
 
     OUTPUT: 1
 
-4. A user submits a word with two or more characters and a sentence with two or more characters, but that word is not found in the sentence.
-
-    WHY: After dealing with multiple characters matching, need to take into account them not matching aka returning false.
-
-    INPUT word: "be"
-    INPUT sentence: "no"
-
-    OUTPUT: 0
-
 5. A user submits a multiple character word and a sentence with two or more words and that word is found in the sentence.
 
     WHY: Next simplest step because input word must be checked not only against one word, but two words.
