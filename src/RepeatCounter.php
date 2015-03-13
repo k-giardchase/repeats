@@ -16,14 +16,13 @@
           if($input_word == $word)
           {
             array_push($total_word_count, 1);
+
           }
 
         }
 
-          return $total_word_count;
-
-        // $final_total_count = array_sum($total_word_count);
-        // return $final_total_count;
+        $final_total_count = array_sum($total_word_count);
+        return $final_total_count;
 
       }
 
