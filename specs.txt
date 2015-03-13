@@ -13,12 +13,16 @@ SPECS - WHAT
 =======================
 1. A user submits a word with a single character and a sentence with a single character. Program outputs that word was found once in sentence.
 
+    WHY: A single character matching another single character is the simplest to search for.
+
     INPUT word: 'A'
     INPUT sentence: 'A'
 
     OUTPUT: 1
 
 2. A user submits a word with a single character and a sentence with a single character, but that word is not found in the sentence.
+
+    WHY: After finding match, the next simplest step would be to return false if a single character and a single character did not match.
 
     INPUT word: 't'
     INPUT sentence: 't'
@@ -27,12 +31,16 @@ SPECS - WHAT
 
 3. A user submits a word with two or more characters and a sentence with two or more characters and that word is found in the sentence.
 
+    WHY: Dealing with multiple character matching is the next simplest step.
+
     INPUT word: "so"
     INPUT sentence: "so"
 
     OUTPUT: 1
 
 4. A user submits a word with two or more characters and a sentence with two or more characters, but that word is not found in the sentence.
+
+    WHY: After dealing with multiple characters matching, need to take into account them not matching aka returning false.
 
     INPUT word: "be"
     INPUT sentence: "no"
@@ -41,6 +49,8 @@ SPECS - WHAT
 
 5. A user submits a multiple character word and a sentence with two or more words and that word is found in the sentence.
 
+    WHY: Next simplest step because input word must be checked not only against one word, but two words.
+
     INPT word: "okay"
     INPUT word: "be okay"
 
@@ -48,16 +58,24 @@ SPECS - WHAT
 
 6. A user submits a multiple character word and a sentence with two or more words and that word is not found in the sentence.
 
+    WHY: Next simplest step because input word must be checked not only against one word, but two words AND take into account them not matching.
+
     INPUT word: "burlington"
     INPUT sentence: "portland is a lot like burlington"
     OUTPUT: 1
 
 7. A user submits a multiple character word and a sentence with two or more words and the word is found multiple times in the sentence.
 
+    WHY: After checking word against multiple words in sentence, the next easiest step would be to return multiple matches of that word.
+
     INPUT word: "at"
     INPUT sentence: "when i was at the store at eight last night"
 
+    OUTPUT: 2
+
 8. A user submits a word with CAPS on but a sentence with CAPS off. The program is still able to search and find their word.
+
+    WHY: Program is now fully functioning, so we must now take into account human error. 
 
     INPUT word: CRAZY
     INPUT sentence: "Hopefully this assessment won't make me go crazy"
