@@ -6,8 +6,8 @@
       {
 
         $total_word_count = array();
-
         $word_in_phrase = array();
+
         $word_in_phrase = explode(" ", $input_phrase);
 
         foreach($word_in_phrase as $word)
@@ -17,15 +17,13 @@
           {
             array_push($total_word_count, 1);
           }
-          // else
-          // {
-          //   array_push($total_word_count, 0);
-          // }
 
         }
 
-        $final_total_count = array_sum($total_word_count);
-        return $final_total_count;
+          return $total_word_count;
+
+        // $final_total_count = array_sum($total_word_count);
+        // return $final_total_count;
 
       }
 

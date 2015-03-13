@@ -75,7 +75,8 @@
           $result = $test_repeat_counter_multiple_word_match->countRepeats($input_word, $input_phrase);
 
           //Assert
-          $this->assertEquals(2, $result);
+          $total_word_count = array(2);
+          $this->assertEquals($total_word_count, $result);
 
         }
 
