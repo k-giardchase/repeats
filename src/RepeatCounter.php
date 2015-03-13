@@ -2,9 +2,9 @@
 
     class RepeatCounter
     {
-      function countRepeats
+      function countRepeats($input_word, $input_phrase)
       {
-        
+
       }
 
     }
