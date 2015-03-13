@@ -22,7 +22,7 @@ x 1. A user submits a word with a single character and a sentence with a single 
 
 x 2. A user submits a word with a single character and a sentence with a single character, but that word is not found in the sentence.
 
-    WHY: After finding match, the next simplest step would be to return false if a single character and a single character did not match.
+    WHY: After finding match, the next simplest step would be to return false if a single character and a single character did not match. Program needs false option.
 
     INPUT word: 't'
     INPUT sentence: 'x'
@@ -47,7 +47,7 @@ x 4. A user submits a multiple character word and a sentence with two or more wo
 
     OUTPUT: 1
 
-5. A user submits a multiple character word and a sentence with two or more words and the word is found multiple times in the sentence.
+x 5. A user submits a multiple character word and a sentence with two or more words and the word is found multiple times in the sentence.
 
     WHY: After checking word against multiple words in sentence, the next easiest step would be to return multiple matches of that word.
 
@@ -56,7 +56,7 @@ x 4. A user submits a multiple character word and a sentence with two or more wo
 
     OUTPUT: 2
 
-6. A user submits a word with CAPS on but a sentence with CAPS off. The program is still able to search and find their word.
+x 6. A user submits a word with CAPS on but a sentence with CAPS off. The program is still able to search and find their word.
 
     WHY: Program is now fully functioning, so we must now take into account human error.
 
@@ -69,10 +69,10 @@ x 4. A user submits a multiple character word and a sentence with two or more wo
 
 SPECS - HOW
 =======================
-Beginnning ideas for outlining project:
+Beginning ideas for outlining project:
 
 Take user input word as 1 string and take user input sentence as another string.
 
 Use explode function to break apart input sentence into separate words stored in an array.
 
-Use in_array function to search array of now seperate words against input word string.
+Use in_array function or foreach loop to search array of now seperate words against input word string.
