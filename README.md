@@ -1,27 +1,46 @@
-By Kyle Giard-Chase
+##Developers
+Kyle Giard-Chase
 
-Web app that allows users to search for the number of times an input word appears in an user input sentence. App calculates how many times that word is in that sentence and displays results.
+##Date
+March 14 2015
 
-Project uses composer to install Silex, Twig, and PHPUnit dependencies. To install composer, create composer.json file in top of project file and include:
+##Description
+An app that calculates how many times a word appears in a sentence.
 
-{
-    "require": {
-      "phpunit/phpunit": "4.5.*",
-      "silex/silex": "~1.1",
-      "twig/twig": "~1.0"
-    }
+##Technologies Used
+PHP <br>
+<a href='http://getbootstrap.com/'>Bootstrap </a>for styling <br>
+It uses <a href='https://getcomposer.org/'>Composer</a> to install:
+<li>
+<a href='http://silex.sensiolabs.org/'>Silex</a>
+</li>
+<li><a href='http://twig.sensiolabs.org/'>Twig</a></li>
+<li><a href='https://phpunit.de/'>PHPUnit</a></li>
+
+##Use and Editing
+To view the app,<br>
+1. Open your command shell, and clone the repository  using the command `git clone https://github.com/k-giardchase/repeats.git`<br>
+2. In the top level of the project folder, run `composer install`<br>
+3. Start a php server by changing directories into the web folder `cd repeats/web`
+and start your server `php -S localhost:8000`<br>
+5. Open your browser and navigate to your root path: `localhost:8000`
 
 
-}
+##Copyright (c) 2015 Kyle Giard-Chase
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-Then run 'composer install' command in terminal.
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
 
-The MIT License
-
-Copyright (c) 2010-2015 Google, Inc. http://angularjs.org
-
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
